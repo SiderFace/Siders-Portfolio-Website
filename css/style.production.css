@@ -9,13 +9,13 @@
 Colors used
 
 Text Color (Dark Gray): #2b2b2b;
-Primary Color (Light Blue): #44abff;
-Secondary Color (Dark Blue): #171747;
+Primary Color (Peach): #facf9e;
+Secondary Color (Light Orange): ##fa8b0c;
  */
 
  body{
  
-   background-color: #44abff;
+   background-color: #facf9e;
 
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
@@ -34,7 +34,7 @@ li.container
 
 li.container a
 {
-    color: #FFF;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font: 20px Raleway;
     margin: 0px 10px;
@@ -46,7 +46,7 @@ li.container a
 
 .blue
 {
-    background: #44abff;
+    background: #facf9e;
 }
 
 li.circleBehind a:before, li.circleBehind a:after
@@ -56,7 +56,7 @@ li.circleBehind a:before, li.circleBehind a:after
     left: 50%;
     width: 50px;
     height: 50px;
-    border: 4px solid #0277bd;
+    border: 4px solid #fa8b0c;
     -webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
         -ms-transform: translateX(-50%) translateY(-50%) scale(0.8);
             transform: translateX(-50%) translateY(-50%) scale(0.8);
@@ -221,7 +221,7 @@ li.circleBehind a:hover:after
    grid-template-columns: 1fr 1fr 1fr; 
    grid-gap: 10px; }
  .grid__item {
-   background-color: #94c3f9; 
+   background-color: #fa8b0c; 
    padding: 20px; }
  .grid__item:last-child {
    -ms-grid-column: 3;
@@ -256,4 +256,4 @@ li.circleBehind a:hover:after
 @media all and (min-width: 500px) and (max-width: 750px){ 
    .grid { 
       -ms-grid-columns: 1fr 10px 1fr; 
-      grid-template-columns: 1fr 1fr; } }
+      grid-template-columns: 1fr 1fr; } } 
