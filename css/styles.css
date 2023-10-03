@@ -188,6 +188,11 @@ li.circleBehind a:hover:after
  .grid__item:last-child {
    grid-column: 3 / 3;
    grid-row: 1 / 3; }
+
+.app-screenshot {
+   max-width: 100%;
+   height: auto;
+}
       
  .page-footer { 
    clear: both; 
