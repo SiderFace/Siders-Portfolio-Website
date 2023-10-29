@@ -38,56 +38,313 @@
          <h1>Coding Works :</h1>
 
          <div class="grid">
-            <div class="grid__item">
-               <h2>Meet App</h2>
-               <p>
-                  <img src="img/siderface.github.io_meet_.png" width="462" height="615" class="app-screenshot" alt="Meet App screenshot">
-               </p>
-               <a target="_blank" href="https://siderface.github.io/meet/">! Check out the hosted App here !</a>
-               <p>This app provides a list of coding events all around the world. The user can use the Search bar to filter the events by city, as well as control the number of events taht will be displayed at one time. Above the event list are two graphs giving the user data on the frequency of events by city, as well as the frequency of events by their subject matter, on their filtered list of events.</p>
-               <br>
-               <h3> Development technologies :</h3>
-                  <p> React, React Testing Library, Javascript, AWS Lambda, google OAuth, Jest (Cucumber), Gherkin, Puppeteer, Recharts, and more</p>
-                  <br>
-               <h4> See behind the curtain :</h4>
-               <a target="_blank" href="https://github.com/SiderFace/meet">See the app's codebase repository here</a>
 
-            </div>
             <div class="grid__item">
-               <h2>Two</h2>
-               <p>
-                  Two
-               </p>
-               <a href="#">See project on GitHub</a>
+               <h2>MyFlix DB [React]</h2>
+               <div class="image-container">
+                  <img src="img/MyFlix-Screenshot-1.png" width="462" height="615" class="app-screenshot" alt="MyFlix Screenshot 1">
+                  <img src="img/MyFlix-Screenshot-2.png" width="462" height="615" class="app-screenshot" alt="MyFlix Screenshot 2">
+               </div>
+               <a target="_blank" href="https://siders-myflix.netlify.app/"><h3>CLICK HERE to go to 'MyFlix DB' hosted site</h3></a>
+
+               <h3> User Experience :</h3>
+                  <p>
+                     This is a movie database (in the spirit of iMDB and Rotten Tomatoes) the provides user with a database of movies to explore.  
+                     Each movie has a brief synapse and descriptions of the genre they are in and the director of the movie.  
+                     User's will be prompted to register with the site, at which time a Profile page will be generated for them.  They can also un-register any time they desire.  
+                     When exploring the movies, they can add any of the movies to their own personal "Favorites" list, which will be displayed on their Profile page, and can be removed at any time.  
+                  </p>
+
+               <h3> Features :</h3>
+                  <P>
+                     This app features Anonymous user registration and token authorization.  
+                     It is a single-page Application (SPA) with several co-dependant components working together.  
+                     THe search field filters movies, by title, as they type characters into the search field.  
+                     The rendered movie database is supplied by API calls to a Mongo Atlas database hosted by Heroku.  
+                     A profile page is offered to each unique user respectively, where they can compile their own array of movies.  
+                  </P>
+
+               <h3> Develoment technologies :</h3>
+                  <ul>
+                     <li>Frontend tools:</li>
+                        <ul>
+                           <li>React</li>
+                           <li>React Bootstrap</li>
+                           <li>HTML</li>
+                           <li>JS (JSX)</li>
+                           <li>CSS (SCSS)</li>                           
+                        </ul>
+
+                     <li>Backend tools:</li>
+                        <ul>
+                           <li>Node.js</li>
+                           <li>Express.js</li>
+                           <li>MongoDB (mongoose)</li>
+                           <li>Mongo Atlas</li>
+                           <li>Heroku</li>
+                           <li>Parcel</li>
+                           <li>React router</li>
+                           <li>Redux</li>
+                        </ul>
+                     
+                     <li> Testing tools:</li>
+                        <ul>
+                           <li>React Testing Library</li>
+                           <li>Postman</li>
+                        </ul>
+                  </ul>
+                  <br>
+                  <h3> Under the hood :</h3>
+                  <a target="_blank" href="https://github.com/SiderFace/myFlix-client">CLICK HERE to go to this project's codebase repository on GitHub</a>
             </div>
+
             <div class="grid__item">
-               <h2>Three</h2>
-               <p>
-                  Three
-               </p>
-               <a href="#">See project on GitHub</a>
+               <h2>Meet App [Testing]</h2>
+               <div class="image-container">
+                  <img src="img/MeetApp-Screenshot-1.png" width="462" height="615" class="app-screenshot" alt="Meet App screenshot 1">
+                  <img src="img/MeetApp-Screenshot-2.png" width="250" height="450" class="app-screenshot" alt="Meet App screenshot 2">
+               </div>
+               <a target="_blank" href="https://siderface.github.io/meet/"><h3>CLICK HERE to go find events at the 'Meet App' hosted site</h3></a>
+
+               <h3> User Experience :</h3>
+                  <p>
+                     This app provides a list of coding events all around the world.  
+                     The user can use the Search bar to filter the events by city, as well as control the number of events that will be displayed at one time.  
+                     Above the event list are two graphs giving the user data on the frequency of events by city, as well as the frequency of events by their subject matter, on their filtered list of events.  
+                     Users will have to log in with their google-gmail credentials, which allows them to seamlessly add events they find to their own personal google calender, where they can benefit from the various benefits therein.  
+                  </p>
+
+               <h3> Features :</h3>
+                  <P>
+                     This app makes for a great playground and learning experience for working with a variety of different testing tools and methods.  
+                     It sources events from an external public database.  
+                     The list is rendered based on user-selected filter by city.  
+                     The charts at the top represent what is currently rendered on the filter list, displaying the frequency of those events by city and event subject matter.  
+                  </P>
+
+               <h3> Development technologies :</h3>
+                  <ul>
+                     <li>Frontend tools:</li>
+                        <ul>
+                           <li>React</li>
+                           <li>Recharts</li>
+                           <li>Javascript</li>
+                           <li>SCSS</li>
+                        </ul>
+
+                     <li>Backend tools:</li>
+                        <ul>
+                           <li>AWS Lambda</li>
+                           <li>google OAuth</li>
+                        </ul>
+
+                     <li>Testing tools:</li>
+                        <ul>
+                           <li>React Testing Library</li>
+                           <li>Jest (cucumber)</li>
+                           <li>Gherkin</li>
+                           <li>Puppeteer</li>
+                        </ul>
+                  </ul>
+                  <br>
+               <h3> Under the hood :</h3>
+                  <a target="_blank" href="https://github.com/SiderFace/meet">CLICK HERE to go to this project's codebase repository on GitHub</a>
             </div>
+            
             <div class="grid__item">
-               <h2>Four</h2>
-               <p>
-                  Four
-               </p>
-               <a href="#">See project on GitHub</a>
+               <h2>Pokedex [Javascript]</h2>
+               <div class="image-container">
+                  <img src="img/Pokedex-Screenshot-1.png" width="462" height="615" class="app-screenshot" alt="Pokedex Screenshot 1">
+                  <img src="img/Pokedex-Screenshot-2.png" width="462" height="615" class="app-screenshot" alt="Pokedex Screenshot 2">
+               </div>
+               <a target="_blank" href="https://siders-js-app.netlify.app/"><h3>CLICK HERE to go Catch Pokemon at the hosted site!</h3></a>
+
+               <h3> User Experience :</h3>
+                  <p>
+                     This is a "Pokedex" database virtually all of most of the well known Pokemon.  
+                     Users can scroll through a long list of buttons each containing a Pokemon.  
+                     When each button is clicked, a modal pops-up with a picture of the selected pokemon, characteristics: height, and a button to close the modal when ready to return to the list.  
+                  </p>
+
+                  <h3> Features :</h3>
+                     <p>
+                        This app demonstrates a wide range of styling features with the buttons (hover, held click, last clicked, etc.) to make the navigation more intuitive.
+                        The pop-up modals offer a "close" button as well as an easy exit by clicking outside of the box.
+                        The grid is responsive to optimize spacing and overall visual attrativeness on virtually all dispaly types.
+                     </p>
+
+               <h3> Development technologies :</h3>
+                  <ul>
+                     <li>Frontend tools:</li>
+                        <ul>
+                           <li>HTML></li>
+                           <li>JavaScript</li>
+                           <li>CSS</li>
+                           <li>Bootstrap</li>
+                           <li>jQuery</li>
+                        </ul>
+
+                     <li>Backend tools:</li>
+                        <ul>
+                           <li>Public API: https://pokeapi.co/api/v2/pokemon/</li>
+                        </ul>
+                  </ul>
+                  <br>
+               <h3> Under the hood :</h3>
+                  <a target="_blank" href="https://github.com/SiderFace/Siders-JS-App">CLICK HERE to go to this project's codebase repository on GitHub</a>
             </div>
+
             <div class="grid__item">
-               <h2>Five</h2>
-               <p>
-                  Five
-               </p>
-               <a href="#">See project on GitHub</a>
+               <h2>SiderFlix [Angular]</h2>
+               <div class="image-container">
+                  <img src="img/SiderFlix-Screenshot-1.png" width="462" height="615" class="app-screenshot" alt="SiderFlix Screenshot 1">
+                  <img src="img/SiderFlix-Screenshot-2.png" width="462" height="615" class="app-screenshot" alt="SiderFlix Screenshot 2">
+                  <img src="img/SiderFlix-Screenshot-3.png" width="462" height="615" class="app-screenshot" alt="SiderFlix Screenshot 3">
+               </div>
+               <a target="_blank" href="https://siderface.github.io/myFlix-Angular-client/"><h3>CLICK HERE to go to the 'SiderFlix' hosted site</h3></a>
+
+               <h3> User Experience :</h3>
+                  <p>
+                     This is another movie database app, for users to explore a list of movies, and add them to their own personal profile's "Favorites" list.  
+                     It is, essentially, a recreation of the 'MyFlix DB' app that is presented above in this protfolio, but now is developed from the ground up using Anuglar.
+                     It sources the same movie database, and also uses API calls in a manner appropriate to Angular logic.
+                     Users can, again, register with the app to create a personal profile, and their login info can also be used on the 'MyFlix DB' React app.  
+                     One notable UI difference is that Movie cards have the three information categories immediately accessible to be clicked on the main movie page, where they will pop up a modal with the selected information; as opposed to clicking the card to be brought to a separate component view with all of the information in one view.  
+                  </p>
+
+               <h3> Features :</h3>
+                  <P>
+                     This app features Anonymous user registration and token authorization.  
+                     It is a single-page Application (SPA) with several components working together in one seamless view.  
+                     The rendered movie database is supplied by API calls to a Mongo Atlas database hosted by Heroku.  
+                     A profile page is offered to each unique user respectively, where they can compile their own array of movies.  
+                  </P>
+
+               <h3> Develoment technologies :</h3>
+                  <ul>
+                     <li>Frontend tools:</li>
+                        <ul>
+                           <li>Angular</li>
+                           <li>Angular Material</li>
+                           <li>HTML</li>
+                           <li>SCSS</li>                           
+                        </ul>
+
+                     <li>Backend tools:</li>
+                        <ul>
+                           <li>Angular CLI</li>
+                           <li>Node.JS</li>
+                           <li>Express.js</li>
+                           <li>MongoDB (mongoose)</li>
+                           <li>Mongo Atlas</li>
+                           <li>Heroku</li>
+                           <li>Typescript</li>
+                           <li>JSDoc</li>
+                        </ul>
+
+                     <li>Testing:
+                        <ul>
+                           <li>Angular CLI</li>
+                           <li>Postman</li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <br>
+                  <h3> Under the hood :</h3>
+                  <a target="_blank" href="https://github.com/SiderFace/myFlix-Angular-client">CLICK HERE to go to this project's codebase repository on GitHub</a>
             </div>
+
             <div class="grid__item">
-               <h2>Six</h2>
-               <p>
-                  Six
-               </p>
-               <a href="#">See project on GitHub</a>
+               <h2>Chat App [React Native]</h2>
+               <div class="image-container">
+                  <img src="img/ChatApp-Screenshot-1.png" width="200" height="300" class="app-screenshot" alt="Chat App Screenshot 1">
+                  <img src="img/ChatApp-Screenshot-2.png" width="200" height="300" class="app-screenshot" alt="Chat App Screenshot 2">
+               </div>
+               <a target="_blank" href="https://github.com/SiderFace/Chat-App/blob/master/README.md"><h3>CLICK HERE to go to instructions on running the app locally on your machine</h3></a>
+
+               <h3> User Experience :</h3>
+                  <p>
+                     Users of this mobile device Chat App can select a username and background color, and then immedately start chatting with any users conencted to the app.  
+                     They are able to share messages containing text, camera photos, stored images, and their GPS-generated location.  
+                     Users can expect chat history to be saved at all times, and remain in the chat upon future returns, or after losing internet connectivity.  
+                     While disconnected users can still see the chat contents that were sent and received up until the point of losing their connection.  
+                  </p>
+
+               <h3> Features :</h3>
+                  <P>
+                     The app generates a chat icon for each user based on teh initials of their selected username.  
+                     The background of the chat window is generated with teh color selected by the user.  
+                     File sharing is mad epossible by the firestore cloud storage that hosts the shared access point where all connected users can send and receive messages, images, and locations.  
+                     Asynchronous data storage allows for any chat data that was sent before a user loses internet connectivity to remain visible to the user.  
+                     The chat is equipped to utilize the users' device GPS capabilities to share their location with other users.  
+                     Users will always be prompted to give permission to the app to access their camera, file (images) storage, and location (GPS) to ensure trust and privacy.  
+                  </P>
+
+               <h3> Develoment technologies :</h3>
+                  <ul>
+                     <li>Frontend tools:</li>
+                        <ul>
+                           <li>React Native</li>
+                           <li>React Native: Gifted Chat Library</li>
+                                                   
+                        </ul>
+
+                     <li>Backend tools:</li>
+                        <ul>
+                           <li>Expo</li>
+                           <li>Expo CLI</li>
+                           <li>Google Firebase (firestore Database)</li>
+                        </ul>
+                     <li>Testing:
+                        <ul>
+                           <li>Expo Go (Android)</li>
+                           <li>Android Studio (virtual Device Manager)</li>
+                           <li>Expo CLI</li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <br>
+                  <h3> Under the hood :</h3>
+                  <a target="_blank" href="https://github.com/SiderFace/Chat-App">CLICK HERE to go to this project's codebase repository on GitHub</a>
             </div>
+
+            <div class="grid__item">
+               <h2>To-do List App [JS: jQuery]</h2>
+               <div class="image-container">
+                  <img src="img/ToDoListApp-Screenshot-1.png" width="600" height="775" class="app-screenshot" alt="To-do List App Screenshot 1">
+                  <img src="img/ToDoListApp-Screenshot-2.png" width="462" height="615" class="app-screenshot" alt="To-do List App Screenshot 2">
+               </div>
+               <a target="_blank" href="https://siders-to-do-list-app.netlify.app/"><h3>CLICK HERE to go to the 'To-Do List App' hosted site</h3></a>
+               <h3> User Experience :</h3>
+                  <p>
+                     Users of the To-do List App can utilize this classic tool to make a log of items that can be crossed off or removed at their discretion.  
+                     Users simply type in the item they want to add to the list into the given text input field, and click "Add".  
+                     They can click the "X" beside each listed item to remove it, or double-click the item to have it remain listed but crossed off.  
+                     A simple yet great way to keep track of things otherwise easy to forget.  
+                  </p>
+
+               <h3> Features :</h3>
+                  <P>
+                     The App genertes list items, and removes them upon command.  
+                     The text input field gives suggestions of items to add, as the user types, based on past items the user has added in previous lists.  
+                  </P>
+
+               <h3> Develoment technologies :</h3>
+                  <ul>
+                     <li>Frontend tools:</li>
+                        <ul>
+                           <li>HTML</li>
+                           <li>Javascript</li>
+                           <li>jQuery Library</li>
+                           <li>CSS</li>
+                                                   
+                        </ul>
+                  </ul>
+                  <br>
+                  <h3> Under the hood :</h3>
+                  <a target="_blank" href="https://github.com/SiderFace/To-do-list-app">CLICK HERE to go to this project's codebase repository on GitHub</a>
+            </div>
+
          </div>
       </main>
 

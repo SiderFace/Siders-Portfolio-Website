@@ -178,13 +178,28 @@ li.circleBehind a:hover:after
    background-color: #f1804f; 
    color: #2b2b2b; }
 
- .grid {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr; 
-   grid-gap: 10px; }
+   .grid {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+   }
+
  .grid__item {
-   background-color: #fa8b0c; 
-   padding: 20px; }
+   flex: 1;
+   padding: 10px;
+   box-sizing: border-box;
+   }
+
+   .image-container {
+      display: flex;
+   }
+
+   .image-container img {
+      flex: 1;
+      max-width: 50%; 
+      height: auto;
+   }
+
  .grid__item:last-child {
    grid-column: 3 / 3;
    grid-row: 1 / 3; }
