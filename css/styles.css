@@ -130,7 +130,7 @@ li.circleBehind a:hover:after
    margin: 0 auto; }
  .profile__portrait {
    float: left;
-   width: 250px;
+   width: 500px;
    margin-right: 40px; 
    height: auto; 
    border-radius: 50%; }
